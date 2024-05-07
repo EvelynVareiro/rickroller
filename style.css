@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(90, 97, 173);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.wrapper {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.wrapper a {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    text-decoration: none;
+}
